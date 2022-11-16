@@ -15,6 +15,10 @@ module.exports.login_post = async (req, res) => {
     const email = req.body.email;
     const password = req.body.password;
 
+    if (!email && !password){
+        return res.status(400).send('Please enter your email and password');
+    };
+
     // find user by email
     const user = await User.findOne({
         email
