@@ -49,6 +49,7 @@ The cors package available in the npm registry is used to tackle CORS errors in 
 // OR
 app.use(function (req, res, next) {
     // create whitelist of domains
+    // TODO: add new online front app address
     const whitelist = ['https://leika.netlify.app', 'http://localhost:4200'];
     const origin = req.headers.origin;
     if (whitelist.includes(origin)) {
