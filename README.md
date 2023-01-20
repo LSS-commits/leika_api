@@ -4,11 +4,10 @@ This is the back-end code for the Leika banking application. API built with Node
 [Leika API](https://leika-api.onrender.com/)
 
 ```
-Routes
+# Routes
 GET /api/transactions
 GET /api/accounts
 GET /api/cards
-
 ```
 
 # Overview
