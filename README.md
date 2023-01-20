@@ -1,7 +1,7 @@
 # Leika Bank API
 This is the back-end code for the Leika banking application. API built with Node.js, Express.js, MongoDB and Mongoose.
 
-[Leika API](https://leikaback.herokuapp.com/)
+[Leika API](https://leika-api.onrender.com/)
 
 # Overview
 - Users ans their associated accounts, cards and transactions
