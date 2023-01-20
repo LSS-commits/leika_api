@@ -20,6 +20,8 @@ const beneficiariesRoute = require('./routes/beneficiaries');
 // cookie parser
 const cookieParser = require('cookie-parser');
 
+// strictQurey = false by default in Mongoose 7
+mongoose.set('strictQuery', false);
 
 // Connect to DB
 mongoose.connect(process.env.DB_CONNECT, {
