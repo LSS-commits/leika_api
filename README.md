@@ -3,6 +3,14 @@ This is the back-end code for the Leika banking application. API built with Node
 
 [Leika API](https://leika-api.onrender.com/)
 
+```
+Routes
+GET /api/transactions
+GET /api/accounts
+GET /api/cards
+
+```
+
 # Overview
 - Users ans their associated accounts, cards and transactions
 - Token generated server-side and stored in a session cookie that is then sent to the browser to secure the authentication
