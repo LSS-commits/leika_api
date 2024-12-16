@@ -3,7 +3,6 @@ This is the back-end code for the Leika banking application. API built with Node
 
 ![Preview API](https://github.com/LSS-commits/leika_api/blob/main/screen_leika_back.PNG?raw=true)
 
-[Visualize Leika API](https://leika-api.onrender.com/)
 
 ```
 # Routes
